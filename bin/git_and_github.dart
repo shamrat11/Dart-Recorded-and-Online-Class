@@ -1,5 +1,9 @@
-import 'package:git_and_github/git_and_github.dart' as git_and_github;
+class myClass {
 
-void main(List<String> arguments) {
-  print('Hello world: ${git_and_github.calculate()}!');
+  String myName = "Mehedi";
+  int age = 24;
+
+  void method01(){
+    print('This is a Method');
+  }
 }
